@@ -14,7 +14,7 @@ export const form = styled.form`
     padding: 24px 0;
   }
 
-  .form::before {
+  &::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,7 +25,7 @@ export const form = styled.form`
     opacity: 0.7;
   }
 
-  .form div {
+  & div {
     position: relative;
     color: #eee;
   }

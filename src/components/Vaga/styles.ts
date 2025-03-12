@@ -9,12 +9,12 @@ export const Vaga = styled.li`
   transition: all ease 0.3s;
   border-radius: 8px;
 
-  .vaga:hover {
+  &:hover {
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
   }
 
-  .vaga:hover a {
+  &:hover a {
     border-color: var(--cor-principal);
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
